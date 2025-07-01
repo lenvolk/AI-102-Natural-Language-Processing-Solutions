@@ -11,3 +11,4 @@ demos/.DS_Store
 # Ignore initialization variable files (may contain sensitive data)
 initialize_variables.sh
 **/initialize_variables.sh
+logs/*.*
