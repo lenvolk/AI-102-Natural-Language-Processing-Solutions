@@ -14,7 +14,7 @@ def recognize_and_synthesize_from_microphone():
     )
     speech_translation_config.speech_recognition_language = "en-US"
 
-    target_language = "it"
+    target_language = "RU"  # Set the target language for translation
     speech_translation_config.add_target_language(target_language)
 
     # Set a voice name for speech synthesis in the target language
